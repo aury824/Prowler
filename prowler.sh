@@ -7,12 +7,10 @@ cd Python-3.9.5
 ./configure --enable-optimizations
 sudo make altinstall
 
-HOME_dir=`echo $USER`
 
-echo 'alias python="/usr/local/bin/python3.9"' >> /home/$HOME_dir/.bashrc
-echo 'alias pip="/usr/local/bin/pip3.9"' >> /home/$HOME_dir/.bashrc
+#Pip version upgrade
+/usr/local/bin/python3.9 -m pip install --upgrade pip
 
-source /home/$HOME_dir/.bashrc
 
 #Prowler3 version install
-pip install prowler
+/usr/local/bin/pip3.9 install prowler
