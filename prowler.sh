@@ -12,5 +12,5 @@ sudo make altinstall
 /usr/local/bin/python3.9 -m pip install --upgrade pip
 
 
-#Prowler3 version install
+#Prowler3 install
 /usr/local/bin/pip3.9 install prowler
