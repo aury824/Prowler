@@ -14,3 +14,5 @@ sudo make altinstall
 
 #Prowler3 install
 /usr/local/bin/pip3.9 install prowler
+
+#Test
